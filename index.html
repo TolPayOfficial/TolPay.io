@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>TolPay</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="keywords" content="tolpay, token">
+    <meta name="description" content="BEP20">
+    <meta name="revisit-after" content="1 days" />
+    <meta name="rating" content="general" />
+    <meta name="audience" content="all" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png">
+
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="Assets/favicon/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="Assets/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="Assets/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="Assets/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="Assets/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="Assets/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="Assets/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="Assets/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="Assets/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="Assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="Assets/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="Assets/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="Assets/favicon/favicon-128.png" sizes="128x128" />
+
+    <meta name="application-name" content="TolPay" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="Assets/favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="Assets/favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="Assets/favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="Assets/favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="Assets/favicon/mstile-310x310.png" />
+    <meta name="theme-color" content="#ccc">
+
+    <meta name="google-site-verification" content="" />
+    <meta name="yandex-verification" content="" />
+    <meta name="msvalidate.01" content="" />
+
+    <meta property="og:title" content="TolPAy" />
+    <meta property="og:url" content="http://www.tolpay.io" />
+    <meta property="og:image" content="http://www.tolpay.io/images/tpaylogo.png" />
+    <meta property="og:description" content="TolPay" />
+    <meta property="og:site_name" content="TolPay" />
+
+    <!--
+    <meta name="robots" content="noindex, nofollow" />
+    -->
+    <!--
+    <meta name="robots" content="index" />
+    -->
+    <!--
+    https://developers.google.com/webmasters/control-crawl-index/docs/robots_meta_tag?hl=tr
+    <meta name="googlebot" content="all" />
+    -->
+
+    <link href="./assets/style/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/vivify.min.css">
+    <link rel="stylesheet" href="./assets/style/responsive-style.css">
+    <link rel="stylesheet" href="./assets/script/swiper-js/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="./assets/font-awesome/b9fcac3324.js"></script>
+    <script src="./assets/script/jquery.min.js"></script>
+</head>
+
+<body id="home">
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/images/tpaylogo.png" alt="logo" height="50"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" link="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" link="#vision">Vision</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" link="#distribution">Tokenomics</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" link="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" link="#partners">Partners</a>
+                    </li>
+                    <li class="nav-item d-none d-lg-block">
+                        <a class="nav-link" link="#roadmap-1">Roadmap</a>
+                    </li>
+                    <li class="nav-item d-block d-lg-none">
+                        <a class="nav-link" link="#roadmap-2">Roadmap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="btn btn-success fw-bold px-4 py-2 ms-1 ms-lg-3">Launch App</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="main" id="">
+        <!-- Banner -->
+        <div class="banner pt-4 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-5 my-auto vivify fadeInLeft">
+                        <h3 class="fw-bolder mb-3">
+                            <span>Future</span> Business Technology</i>
+                        </h3>
+                        <p>
+                            TolPay is the source token currency to perform more transactions with minimum cost from these services so that Users can benefit from their best features on Applications.
+                        </p>
+                        <a href="whitepaper.pdf" target="_blank" class="btn btn-success px-4">Whitepaper</a>
+                        <a href="https://tolpay.io/blog/" target="_blank" class="btn btn-success px-4">Blog</a>
+                        <a href="https://docs.tolpay.io/" target="_blank" class="btn btn-success px-4">Docs</a>
+
+                        <div class="row mt-5">
+                            <div class="col-11 col-lg-9 social-icons ">
+                                <div class="icon-container d-flex py-2 position-relative d-flex align-items-center">
+                                    <div class="social-border position-absolute top-50 w-100 border-bottom"></div>
+                                    <div class="icons position-absolute top-0 left-0">
+                                        <ul class="list-unstyled d-flex flex-row justify-content-between w-100">
+                                            <li>
+                                                <a href="https://twitter.com/TolpayCoin" target="_blank">
+                                                    <i class="fab fa-twitter"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://www.youtube.com/channel/UCvj2pa_TtL8tCyLY2IsTB4g" target="_blank">
+                                                    <i class="fab fa-youtube"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://github.com/Tolpay" target="_blank">
+                                                    <i class="fab fa-github"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://medium.com/@TolpayLabs" target="_blank">
+                                                    <i class="fab fa-medium"></i>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://telegram.com/@TolpayCommunity" target="_blank">
+                                                    <i class="fab fa-telegram"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 pe-5 ">
+                        <img src="assets/images/home-image1.png" class="pt-3 pe-5 vivify fadeInRight" alt="wallet" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Vision -->
+    <section class="our-vision" id="vision">
+        <div class="container d-flex flex-column align-items-center">
+            <h1 data-aos="fade-up" class="fw-bolder pt-5">Our<span>Vision</span></h1>
+            <img src="assets/images/Ellipse.png" class="rounded d-block ellipse" alt="ellipse" width="20%">
+
+            <div class="text-area">
+                <p class="text-center vision-text">
+                    We aim to enable TolPay to be used in different applications in the future, in a way that can easily meet the needs of users from all levels, in a transparent, controllable, and minimally costly manner. In addition to its management and audit network,
+                    we plan to support the effort to offer technologies to address price volatility and transaction scalability problems in existing public blockchain frameworks.
+                </p>
+                <p class="text-center vision-text">
+                    What we've beennparticularly focused on supplying is;
+                </p>
+            </div>
+            <div class="vision-card vision-slider-container mt-4 pt-4">
+                <div class="swiper-vision">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                            <div class="card bg-transparent">
+                                <p class="vision-letter">A</p>
+                                <div class="card-body">
+                                    <h5 class="card-title">Automated Cryptocurrency Trading</h5>
+                                    <p class="card-text">It offers the ultimate tools for crypto traders to maximize their trading profits while minimizing risk and loss.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                            <div class="card bg-transparent">
+                                <p class="vision-letter">W</p>
+                                <div class="card-body ">
+                                    <h5 class="card-title">Wallet</h5>
+                                    <p class="card-text">Wallet aims to integrate your cryptocurrencies with crosschain (multiple blockchain networks) securely and with reasonable commission cost.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                            <div class="card bg-transparent">
+                                <p class="vision-letter">M</p>
+                                <div class="card-body">
+                                    <h5 class="card-title">Marketplace</h5>
+                                    <p class="card-text">
+                                        A payment infrastructure between the marketplace and the traders.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                            <div class="card bg-transparent">
+                                <p class="vision-letter">B</p>
+                                <div class="card-body">
+                                    <h5 class="card-title">Build Platform</h5>
+                                    <p class="card-text">
+                                        A reliable platform for the creation and use of cryptocurrencies, and Developing Industry 4.0 and Industry 5.0 commercial softwares within the blockchain network.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Distribution of TolPay -->
+    <section class="distribution py-5" id="distribution">
+        <h1 data-aos="fade-up" class="text-center fw-bolder pt-5">Distribution of <span>TolPay</span></h1>
+        <img src="assets/images/Ellipse2.png" class="rounded mx-auto d-block ellipse" alt="ellipse" width="450">
+        <div class="chart-container py-5">
+            <div class="container">
+                <div class="content">
+                    <div class="pie--chart-inner type2">
+                        <div class="pie--chart-inner type2">
+                            <div id="token--pie-chart-light" style="height: 580px"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row w-100 py-5 mt-5 pie-chart-text mx-auto">
+                <div class="col">
+                    <h5>8%</h5>
+                    <p>PreSale</p>
+                </div>
+                <div class="col">
+                    <h5>2%</h5>
+                    <p>PrivateSale</p>
+                </div>
+                <div class="col">
+                    <h5>35%</h5>
+                    <p>Exchange Listing</p>
+                </div>
+                <div class="col">
+                    <h5>20%</h5>
+                    <p>Company Reserve</p>
+                </div>
+                <div class="col">
+                    <h5>5%</h5>
+                    <p>Partners</p>
+                </div>
+                <div class="col">
+                    <h5>10%</h5>
+                    <p>Development</p>
+                </div>
+                <div class="col">
+                    <h5>8%</h5>
+                    <p>Team & Advisor</p>
+                </div>
+                <div class="col">
+                    <h5>2%</h5>
+                    <p>Airdrop</p>
+                </div>
+                <div class="col">
+                    <h5>10%</h5>
+                    <p>Marketing</p>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Features -->
+    <section class="features" id="features">
+        <img src="assets/images/t-coin.png" class="t-coin" alt="t-coin" data-aos="fade-up-left" width="35%">
+        <div class="container d-flex flex-column align-items-center justify-content-center">
+            <h1 data-aos="fade-up" class="text-center fw-bolder pt-5">Features</h1>
+            <img src="assets/images/Ellipse.png" class="rounded mx-auto d-block ellipse" alt="ellipse" width="350">
+            <p class="text-center features-text">
+                Meet with amazing features of TolPay.
+            </p>
+            <div class="row text-center features-slider-container">
+                <div class="swiper-features">
+                    <div class="swiper-wrapper pt-5 ">
+                        <div class="swiper-slide" data-aos="zoom-out">
+                            <div class="card features-card upper-card mx-4">
+                                <div class="card-body">
+                                    <img src="assets/images/wallet-icon.png" class="rounded mx-auto d-block pt-5 mb-3" alt="wallet" width="30%">
+                                    <h5 class="card-title fw-bold">Wallet</h5>
+                                    <p class="card-text">Wallet aims to integrate your cryptocurrencies with crosschain (multiple blockchain networks) securely and with reasonable commission cost</p>
+                                </div>
+                            </div>
+                            <div class="line first-vertical-line"></div>
+                        </div>
+                        <div class="swiper-slide" data-aos="zoom-out">
+                            <div class="card features-card lower-card mx-4">
+                                <div class="card-body">
+                                    <img src="assets/images/ttbot-icon.png" class="rounded mx-auto d-block pt-5 mb-3" alt="ttbot" width="30%">
+                                    <h5 class="card-title fw-bold">TTBot</h5>
+                                    <p class="card-text pb-5">Automated cryptocurrency trading</p>
+                                </div>
+                            </div>
+                            <div class="line second-vertical-line"></div>
+                        </div>
+                        <div class="swiper-slide" data-aos="zoom-out">
+                            <div class="card features-card lower-card mx-4">
+                                <div class="card-body">
+                                    <img src="assets/images/swap-icon.png" class="rounded mx-auto d-block pt-5 mb-3" alt="swap" width="30%">
+                                    <h5 class="card-title fw-bold">Swap</h5>
+                                    <p class="card-text">Swap is an in-wallet crypto-to-crypto exchange. Swap allows users to easily exchange one cryptocurrency for another without leaving their wallet.</p>
+                                </div>
+                            </div>
+                            <div class="line third-vertical-line"></div>
+                        </div>
+                        <div class="swiper-slide" data-aos="zoom-out">
+                            <div class="card features-card upper-card mx-4">
+                                <div class="card-body">
+                                    <img src="assets/images/api-icon.png" class="rounded mx-auto d-block pt-5 mb-3" alt="api" width="30%">
+                                    <h5 class="card-title fw-bold">API Service</h5>
+                                    <p class="card-text pb-5">Thanks to Tolpay Api, we aim to provide a secure and flexible developer environment to the platforms we have created.</p>
+                                </div>
+                            </div>
+                            <div class="line first-vertical-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Partners -->
+
+    <section class="our-partners pt-4 pb-5" id="partners">
+        <div class="container d-flex flex-column align-items-center">
+            <h1 data-aos="fade-up" class="fw-bolder pt-5">Our <span>Partners</span></h1>
+            <img src="assets/images/Ellipse2.png" class="rounded  d-block ellipse" alt="ellipse" width="350">
+            <h3 data-aos="fade-up" class="fw-bolder pt-5">Coming Soon</h3>
+
+            <!--<div class="partner-slider-container mt-4">
+            <div class="swiper-partner">
+                <div class="swiper-wrapper">-->
+            <!--<div class="swiper-slide my-auto">
+             Coming Soon
+            </div>-->
+            <!--<div class="swiper-slide my-auto">
+                <img src="assets/images/nba.png" class="rounded mx-auto d-block" alt="ellipse" width="100%" height="100%" />
+            </div>
+            <div class="swiper-slide my-auto">
+                <img src="assets/images/yahoo.png" class="rounded mx-auto d-block" alt="ellipse" width="100%" height="100%" />
+            </div>
+            <div class="swiper-slide my-auto">
+                <img src="assets/images/yahoo.png" class="rounded mx-auto d-block" alt="ellipse" width="100%" height="100%" />
+            </div>
+            <div class="swiper-slide my-auto">
+                <img src="assets/images/yahoo.png" class="rounded mx-auto d-block" alt="ellipse" width="100%" height="100%" />
+            </div>-->
+            <!--</div>
+                </div>
+            </div>-->
+        </div>
+    </section>
+
+    <!-- Road Map -->
+
+    <section class="road-map d-none d-lg-block mt-4" id="roadmap-1">
+        <div class="container mb-5">
+            <h1 data-aos="fade-up" class="text-center fw-bolder pt-5">Roadmap</h1>
+            <img src="assets/images/Ellipse2.png" class="rounded mx-auto d-block ellipse" alt="ellipse" width="350">
+        </div>
+        <div class="roadmap-box container mb-2">
+            <div class="row h-100">
+                <div class="col d-flex">
+                    <div class="text-area my-auto">
+                        <h2 class="date px-3 pt-3">20</h2>
+                        <h2 class="date px-3">21</h2>
+                    </div>
+                </div>
+                <div class="col">
+                    <i class="fas fa-sort-down fa-3x"></i>
+                    <h3 class="fw-bolder">Q1<i class="fas fa-caret-right ms-2"></i></h3>
+                    <p>Found TTbot </p>
+                    <p>Design UI TTBot</p>
+                    <p>Creating Web Api Service</p>
+                    <p>Test Launch TTBot </p>
+                    <p>Found TolPay</p>
+                </div>
+                <div class="col">
+                    <i class="fas fa-sort-down fa-3x"></i>
+                    <h3 class="fw-bolder">Q2<i class="fas fa-caret-right ms-2"></i></h3>
+                    <p>Checking Security</p>
+                    <p>Design TolPay</p>
+                    <p>Creating BEP20 Token</p>
+                    <p>TolPay Web Site Creation</p>
+                </div>
+                <div class="col">
+                    <i class="fas fa-sort-down fa-3x"></i>
+                    <h3 class="fw-bolder">Q3<i class="fas fa-caret-right ms-2"></i></h3>
+                    <p>Updating Web Api Service</p>
+                    <p>Token Metrics Planing and Release</p>
+                    <p>Publish Whitepaper V1</p>
+                </div>
+                <div class="col">
+                    <i class="fas fa-sort-down fa-3x"></i>
+                    <h3 class="fw-bolder">Q4<i class="fas fa-caret-right ms-2"></i></h3>
+                    <p>Autotrading Bot Beto Launching</p>
+                    <p>Buy TolPay for Autotrading bot</p>
+                    <p>TolPay Transfer Between Users</p>
+                    <p>Publish Rating Report</p>
+                    <p>Publish Best signal for trade report</p>
+                </div>
+            </div>
+        </div>
+        <div class="roadmap-box container mb-2"></div>
+        <div class="roadmap-box container mb-2">
+            <div class="row h-100">
+                <div class="col">
+                    <h2 class="date px-3 pt-3">20</h2>
+                    <h2 class="date px-3">22</h2>
+                </div>
+                <div class="col">
+                    <i class="fas fa-sort-down fa-3x"></i>
+                    <h3 class="fw-bolder">Q1<i class="fas fa-caret-right ms-2"></i></h3>
+                    <p>Autotrading Bot V2 Launching</p>
+                    <p>Binance ICO Start</p>
+                    <p>Listing on Dex&Cex Markets</p>
+                    <p>Listing CoinmarketCap and Coingecko</p>
+                </div>
+                <div class="col">
+                    <i class="fas fa-sort-down fa-3x"></i>
+                    <h3 class="fw-bolder">Q2<i class="fas fa-caret-right ms-2"></i></h3>
+                    <p>Publish Whitepaper V2</p>
+                    <p>TolPay Wallet Launch</p>
+                    <p>TolPay Swap Launch</p>
+                    <p>Autotrading Bot Mobile App Beta Launching</p>
+                </div>
+                <div class="col">
+                    <i class="fas fa-sort-down sort-down-dark1 fa-3x"></i>
+                    <h3 class="fw-bolder">Q3<i class="fas fa-caret-right ms-2"></i></h3>
+                    <p>BlockChain Testnet</p>
+                    <p>Create Payment System Platform</p>
+                </div>
+                <div class="col">
+                    <i class="fas fa-sort-down sort-down-dark2 fa-3x"></i>
+                    <h3 class="fw-bolder">Q4<i class="fas fa-caret-right ms-2"></i></h3>
+                    <p>BlockChain Mainnet</p>
+                    <p>Ecosystem Project</p>
+                </div>
+            </div>
+        </div>
+        <div class="roadmap-box container mb-2">
+
+        </div>
+        <img src="assets/images/tpaylogo-white.png" class="rounded mx-auto d-block white-logo position-relative" alt="white-logo" width="6%">
+    </section>
+
+    <section class="road-map mobile d-block d-lg-none mt-4" id="roadmap-2">
+        <div class="container mb-5">
+            <h1 data-aos="fade-up" class="text-center fw-bolder pt-5">Roadmap</h1>
+            <img src="assets/images/Ellipse2.png" class="rounded mx-auto d-block ellipse" alt="ellipse" width="350">
+        </div>
+        <div class="roadmap-box container mb-2">
+            <div class="row h-100">
+                <div class="col d-flex">
+                    <div class="text-area my-auto">
+                        <h2 class="date px-3 pt-3">20</h2>
+                        <h2 class="date px-3">21</h2>
+                    </div>
+                </div>
+                <div class="col">
+                    <i class="fas fa-sort-down fa-3x"></i>
+                    <h3 class="fw-bolder">Q1<i class="fas fa-caret-right ms-2"></i></h3>
+                    <p>Found TTbot </p>
+                    <p>Design UI TTBot</p>
+                    <p>Creating Web Api Service</p>
+                    <p>Test Launch TTBot </p>
+                    <p>Found TolPay</p>
+                </div>
+                <div class="col">
+                    <i class="fas fa-sort-down fa-3x"></i>
+                    <h3 class="fw-bolder">Q2<i class="fas fa-caret-right ms-2"></i></h3>
+                    <p>Checking Security</p>
+                    <p>Design TolPay</p>
+                    <p>Creating BEP20 Token</p>
+                    <p>TolPay Web Site Creation</p>
+                </div>
+            </div>
+        </div>
+        <div class="roadmap-box container mb-2">
+            <div class="row h-100">
+                <div class="col">
+                    <i class="fas fa-sort-down fa-3x"></i>
+                    <h3 class="fw-bolder mt-4">Q3<i class="fas fa-caret-right ms-2"></i></h3>
+                    <p>Updating Web Api Service</p>
+                    <p>Token Metrics Planing and Release</p>
+                    <p>Publish Whitepaper V1</p>
+                </div>
+                <div class="col">
+                    <i class="fas fa-sort-down fa-3x"></i>
+                    <h3 class="fw-bolder">Q4<i class="fas fa-caret-right ms-2"></i></h3>
+                    <p>Autotrading Bot Beto Launching</p>
+                    <p>Buy TolPay for Autotrading bot</p>
+                    <p>TolPay Transfer Between Users</p>
+                    <p>Publish Rating Report</p>
+                    <p>Publish Best signal for trade report</p>
+                </div>
+            </div>
+        </div>
+        <div class="roadmap-box container mb-2">
+            <div class="row h-100">
+                <div class="col">
+                    <h2 class="date px-3 pt-3">20</h2>
+                    <h2 class="date px-3">22</h2>
+                </div>
+                <div class="col">
+                    <i class="fas fa-sort-down fa-3x"></i>
+                    <h3 class="fw-bolder">Q1<i class="fas fa-caret-right ms-2"></i></h3>
+                    <p>Autotrading Bot V2 Launching</p>
+                    <p>Binance ICO Start</p>
+                    <p>Listing on Dex&Cex Markets</p>
+                    <p>Listing CoinmarketCap and Coingecko</p>
+                </div>
+                <div class="col">
+                    <i class="fas fa-sort-down fa-3x"></i>
+                    <h3 class="fw-bolder">Q2<i class="fas fa-caret-right ms-2"></i></h3>
+                    <p>Publish Whitepaper V2</p>
+                    <p>TolPay Wallet Launch</p>
+                    <p>TolPay Swap Launch</p>
+                    <p>Autotrading Bot Mobile App Beta Launching</p>
+                </div>
+            </div>
+        </div>
+        <div class="roadmap-box container mb-2">
+            <div class="row h-100">
+                <div class="col ">
+                    <i class="fas fa-sort-down sort-down-dark1 fa-3x"></i>
+                    <h3 class="fw-bolder mt-4">Q3<i class="fas fa-caret-right ms-2"></i></h3>
+                    <p>BlockChain Testnet</p>
+                    <p>Create Payment System Platform</p>
+                </div>
+                <div class="col">
+                    <i class="fas fa-sort-down sort-down-dark2 fa-3x"></i>
+                    <h3 class="fw-bolder">Q4<i class="fas fa-caret-right ms-2"></i></h3>
+                    <p>BlockChain Mainnet</p>
+                    <p>Ecosystem Project</p>
+                </div>
+            </div>
+        </div>
+        <img src="assets/images/tpaylogo-white.png" class="rounded mx-auto d-block white-logo position-relative" alt="white-logo" width="6%">
+    </section>
+
+
+    <script src="./assets/script/scrool.js"></script>
+    <script src="./assets/script/swiper-js/swiper-bundle.min.js"></script>
+    <script src="./assets/script/swiper-js/swiper.js"></script>
+    <script src="./assets/script/bootstrap.bundle.min.js"></script>
+    <script src="./assets/script/chart-js/echarts.min.js"></script>
+    <script src="./assets/script/scripts.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

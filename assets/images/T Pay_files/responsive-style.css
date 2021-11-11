@@ -1,0 +1,116 @@
+@media screen and (max-width: 1024px) {
+    .our-vision .vision-text,
+    .features .features-text {
+        padding: 1rem 1rem 0.5rem;
+    }
+    .vision-card {
+        height: auto;
+        width: 100%;
+    }
+    .navbar .container {
+        max-width: 992px !important;
+    }
+    .navbar .nav-link {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+        margin: 0px !important;
+    }
+    .banner .container {
+        max-width: 992px !important;
+    }
+    .t-coin {
+        width: 40%;
+        top: -20%;
+    }
+    .features .container {
+        padding: 0 2rem;
+    }
+    .road-map {
+        height: 1380px;
+        background-color: #f4f4f4;
+        position: relative;
+        overflow: hidden;
+    }
+    .roadmap-box {
+        margin-bottom: 3rem !important;
+    }
+    .road-map.mobile .roadmap-box:nth-child(odd) .col {
+        margin-top: -4%;
+    }
+    .road-map.mobile .roadmap-box:nth-child(odd) .col:nth-child(1) {
+        margin-left: 10%;
+    }
+    .fa-sort-down {
+        display: none !important;
+    }
+    .white-logo {
+        z-index: 1;
+        bottom: 65px;
+        width: 80px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    h1 {
+        font-size: 2.25rem !important;
+    }
+    .our-vision .vision-text {
+        line-height: 1.2;
+    }
+    .our-vision .vision-text,
+    .features .features-text {
+        padding: 1rem 1rem 0.5rem;
+    }
+    .ellipse {
+        width: 72%;
+        top: -25px;
+    }
+    .vision-card {
+        height: auto;
+        width: 95% !important;
+    }
+    .t-coin {
+        width: 50%;
+        top: -15%;
+    }
+    /* distribution */
+    .distribution .content canvas {
+        margin: 0 5rem !important;
+    }
+    /* Features */
+    .features .container {
+        height: 100%;
+        padding: 0 0 !important;
+    }
+    /* Road map */
+    .road-map {
+        font-size: 0.8rem !important;
+    }
+    .road-map .date {
+        color: #5a8f79;
+        font-size: 4.6rem;
+        font-weight: 600;
+        padding-left: 0 !important;
+    }
+    .road-map h3 {
+        font-size: 1.7rem;
+        padding-top: 1.2rem;
+    }
+    .road-map p {
+        padding-top: 2px;
+        font-weight: 500;
+        line-height: 0.72rem;
+        font-size: 0.75rem;
+    }
+    .white-logo {
+        z-index: 1;
+        bottom: 65px;
+        width: 80px;
+    }
+    .fa-sort-down {
+        display: none !important;
+    }
+    .banner p {
+        padding-right: 2rem;
+    }
+}
